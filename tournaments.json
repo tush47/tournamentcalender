@@ -1,0 +1,243 @@
+[
+    {
+      "Tournament Name": "ICC Champions Trophy 2025",
+      "Level": "International",
+      "Start Date": "2025-02-19",
+      "End Date": "2025-03-09",
+      "URL": "https://www.icc-cricket.com/champions-trophy",
+      "Streaming": "Disney+ Hotstar",
+      "Image": "https://resources.pulse.icc-cricket.com/photo-resources/2025-champions-trophy.jpg",
+      "Summary": "ODI tournament featuring top 8 cricket nations, held in Pakistan."
+    },
+    {
+      "Tournament Name": "Indian Premier League 2025",
+      "Level": "National",
+      "Start Date": "2025-03-23",
+      "End Date": "2025-05-25",
+      "URL": "https://www.iplt20.com/",
+      "Streaming": "JioCinema",
+      "Image": "https://resources.iplt20.com/IPL2025.jpg",
+      "Summary": "India’s premier T20 cricket league with domestic and international stars."
+    },
+    {
+      "Tournament Name": "FIFA Club World Cup 2025",
+      "Level": "International",
+      "Start Date": "2025-06-15",
+      "End Date": "2025-07-13",
+      "URL": "https://www.fifa.com",
+      "Streaming": "Sports18 / JioCinema",
+      "Image": "https://digitalhub.fifa.com/clubworldcup2025.jpg",
+      "Summary": "Expanded Club World Cup with 32 top clubs held in the USA."
+    },
+    {
+      "Tournament Name": "Hero Santosh Trophy 2025",
+      "Level": "National",
+      "Start Date": "2025-02-01",
+      "End Date": "2025-03-15",
+      "URL": "https://www.the-aiff.com",
+      "Streaming": "FanCode",
+      "Image": "https://resources.aiff.com/santosh2025.jpg",
+      "Summary": "Prestigious Indian state-level football championship."
+    },
+    {
+      "Tournament Name": "India Open Badminton 2025",
+      "Level": "International",
+      "Start Date": "2025-01-14",
+      "End Date": "2025-01-19",
+      "URL": "https://bwfworldtour.bwfbadminton.com/tournament/india-open/",
+      "Streaming": "BWF TV (YouTube)",
+      "Image": "https://bwfbadminton.com/indiaopen2025.jpg",
+      "Summary": "BWF Super 750 event attracting top global shuttlers."
+    },
+    {
+      "Tournament Name": "All India Inter-University Badminton Championships",
+      "Level": "University",
+      "Start Date": "2025-11-01",
+      "End Date": "2025-11-07",
+      "URL": "https://www.aiu.ac.in/",
+      "Streaming": "Local Cable / YouTube Live",
+      "Image": "https://aiu.ac.in/badminton2025.jpg",
+      "Summary": "Badminton championship for top Indian universities."
+    },
+    {
+      "Tournament Name": "Mumbai Marathon 2025",
+      "Level": "City",
+      "Start Date": "2025-01-19",
+      "End Date": "2025-01-19",
+      "URL": "https://www.tatamumbaimarathon.com/",
+      "Streaming": "Star Sports / Hotstar",
+      "Image": "https://tatamumbaimarathon.com/marathon2025.jpg",
+      "Summary": "Asia’s largest marathon event, open to global runners."
+    },
+    {
+      "Tournament Name": "Noida Corporate Run 2025",
+      "Level": "Corporate",
+      "Start Date": "2025-11-05",
+      "End Date": "2025-11-05",
+      "URL": "https://www.sportingindia.com/noida-run",
+      "Streaming": "YouTube",
+      "Image": "https://noidarun.com/2025.jpg",
+      "Summary": "5K and 10K marathons for corporate teams in Noida."
+    },
+    {
+      "Tournament Name": "CrossFit Games 2025",
+      "Level": "International",
+      "Start Date": "2025-08-01",
+      "End Date": "2025-08-05",
+      "URL": "https://games.crossfit.com/",
+      "Streaming": "YouTube / ESPN",
+      "Image": "https://games.crossfit.com/games2025.jpg",
+      "Summary": "Annual fitness championship testing global athletes in strength & endurance."
+    },
+    {
+      "Tournament Name": "Musclemania India 2025",
+      "Level": "National",
+      "Start Date": "2025-09-15",
+      "End Date": "2025-09-16",
+      "URL": "https://musclemania.com/",
+      "Streaming": "YouTube",
+      "Image": "https://musclemania.com/india2025.jpg",
+      "Summary": "India’s leading bodybuilding and fitness competition."
+    },
+    {
+      "Tournament Name": "Tour de France 2025",
+      "Level": "International",
+      "Start Date": "2025-07-05",
+      "End Date": "2025-07-27",
+      "URL": "https://www.letour.fr/en/",
+      "Streaming": "Eurosport",
+      "Image": "https://letour.fr/tour2025.jpg",
+      "Summary": "World’s premier multi-stage cycling race."
+    },
+    {
+      "Tournament Name": "Delhi Cyclothon 2025",
+      "Level": "City",
+      "Start Date": "2025-10-20",
+      "End Date": "2025-10-20",
+      "URL": "https://delhicyclothon.in/",
+      "Streaming": "YouTube",
+      "Image": "https://delhicyclothon.in/2025.jpg",
+      "Summary": "Mass-participation cycling event for all age groups."
+    },
+    {
+      "Tournament Name": "World Aquatics Championships 2025",
+      "Level": "International",
+      "Start Date": "2025-07-11",
+      "End Date": "2025-07-27",
+      "URL": "https://www.worldaquatics.com/",
+      "Streaming": "Eurosport / JioCinema",
+      "Image": "https://worldaquatics.com/2025.jpg",
+      "Summary": "Global swimming & aquatic sports championship."
+    },
+    {
+      "Tournament Name": "Haryana State Swimming Championship 2025",
+      "Level": "State",
+      "Start Date": "2025-09-10",
+      "End Date": "2025-09-12",
+      "URL": "https://haryanaswimming.in/",
+      "Streaming": "YouTube",
+      "Image": "https://haryanaswimming.in/state2025.jpg",
+      "Summary": "State-level swimming competition for junior & senior athletes."
+    },
+    {
+      "Tournament Name": "Kabaddi World Cup 2025",
+      "Level": "International",
+      "Start Date": "2025-12-05",
+      "End Date": "2025-12-12",
+      "URL": "https://www.kabaddiworldcup.com/",
+      "Streaming": "Star Sports / Disney+ Hotstar",
+      "Image": "https://kabaddiworldcup.com/2025.jpg",
+      "Summary": "International kabaddi tournament featuring top nations."
+    },
+    {
+      "Tournament Name": "Noida Inter-District Kabaddi Championship 2025",
+      "Level": "District",
+      "Start Date": "2025-09-25",
+      "End Date": "2025-09-27",
+      "URL": "https://upkabaddi.in/noida2025",
+      "Streaming": "YouTube",
+      "Image": "https://upkabaddi.in/noida2025.jpg",
+      "Summary": "District-level competition for men’s and women’s kabaddi teams."
+    },
+    {
+      "Tournament Name": "International Yoga Festival Rishikesh 2025",
+      "Level": "International",
+      "Start Date": "2025-03-01",
+      "End Date": "2025-03-07",
+      "URL": "https://www.internationalyogafestival.org/",
+      "Streaming": "YouTube",
+      "Image": "https://internationalyogafestival.org/iyf2025.jpg",
+      "Summary": "Global yoga gathering with competitions, workshops, and spiritual sessions."
+    },
+    {
+      "Tournament Name": "Maharashtra State Yogasana Championship 2025",
+      "Level": "State",
+      "Start Date": "2025-10-15",
+      "End Date": "2025-10-16",
+      "URL": "https://maharashtrayogasana.in/",
+      "Streaming": "YouTube",
+      "Image": "https://maharashtrayogasana.in/2025.jpg",
+      "Summary": "State-level competition for traditional and artistic yogasana."
+    },
+    {
+      "Tournament Name": "National Basketball Championship 2025",
+      "Level": "National",
+      "Start Date": "2025-12-01",
+      "End Date": "2025-12-10",
+      "URL": "https://www.basketballfederationindia.org/",
+      "Streaming": "FanCode",
+      "Image": "https://bfi.org.in/national2025.jpg",
+      "Summary": "Annual basketball event for India’s state teams."
+    },
+    {
+      "Tournament Name": "Mumbai 3x3 Basketball Challenge 2025",
+      "Level": "City",
+      "Start Date": "2025-08-20",
+      "End Date": "2025-08-22",
+      "URL": "https://3x3basketball.in/",
+      "Streaming": "YouTube",
+      "Image": "https://3x3basketball.in/mumbai2025.jpg",
+      "Summary": "Fast-paced 3x3 format basketball event in Mumbai."
+    },
+    {
+      "Tournament Name": "FIDE World Rapid & Blitz Chess Championship 2025",
+      "Level": "International",
+      "Start Date": "2025-12-26",
+      "End Date": "2025-12-30",
+      "URL": "https://www.fide.com/",
+      "Streaming": "Chess.com / YouTube",
+      "Image": "https://fide.com/rapidblitz2025.jpg",
+      "Summary": "Fast-paced global chess championship."
+    },
+    {
+      "Tournament Name": "Delhi Open International Chess Tournament 2025",
+      "Level": "International",
+      "Start Date": "2025-01-10",
+      "End Date": "2025-01-18",
+      "URL": "https://delhichess.com/",
+      "Streaming": "YouTube",
+      "Image": "https://delhichess.com/open2025.jpg",
+      "Summary": "Large open chess tourney attracting GMs from India and abroad."
+    },
+    {
+      "Tournament Name": "WTT Star Contender Goa 2025",
+      "Level": "International",
+      "Start Date": "2025-02-18",
+      "End Date": "2025-02-23",
+      "URL": "https://worldtabletennis.com/",
+      "Streaming": "FanCode",
+      "Image": "https://worldtabletennis.com/goa2025.jpg",
+      "Summary": "International table tennis event in Goa as part of WTT."
+    },
+    {
+      "Tournament Name": "Noida District Table Tennis League 2025",
+      "Level": "District",
+      "Start Date": "2025-10-05",
+      "End Date": "2025-10-07",
+      "URL": "https://uttatabletennis.in/",
+      "Streaming": "YouTube",
+      "Image": "https://uttatabletennis.in/noida2025.jpg",
+      "Summary": "District-level TT tournament featuring top local clubs."
+    }
+  ]
+  

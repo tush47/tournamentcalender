@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sports Tournament Calendar 2025</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #f4f4f4; }
+    img { width: 60px; height: 40px; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+<h1>Sports Tournament Calendar 2025</h1>
+
+<label for="sportFilter">Sport:</label>
+<select id="sportFilter" onchange="filterTournaments()">
+  <option value="All">All</option>
+</select>
+
+<label for="levelFilter">Level:</label>
+<select id="levelFilter" onchange="filterTournaments()">
+  <option value="All">All</option>
+</select>
+
+<table>
+<thead>
+<tr>
+  <th>Tournament</th><th>Sport</th><th>Level</th>
+  <th>Start</th><th>End</th><th>Summary</th><th>Link</th>
+</tr>
+</thead>
+<tbody id="tournamentBody"></tbody>
+</table>
+
+<script>
+let tournaments = [];
+
+// Fetch JSON file
+fetch('tournaments.json')
+  .then(res => res.json())
+  .then(data => {
+    tournaments = data;
+    populateFilters();
+    filterTournaments();
+  });
+
+function populateFilters() {
+  const sports = ["All", ...new Set(tournaments.map(t => t.Sport))];
+  const levels = ["All", ...new Set(tournaments.map(t => t.Level))];
+  const sportSelect = document.getElementById("sportFilter");
+  const levelSelect = document.getElementById("levelFilter");
+  
+  sports.forEach(s => {
+    const opt = document.createElement("option");
+    opt.value = s;
+    opt.textContent = s;
+    sportSelect.appendChild(opt);
+  });
+  
+  levels.forEach(l => {
+    const opt = document.createElement("option");
+    opt.value = l;
+    opt.textContent = l;
+    levelSelect.appendChild(opt);
+  });
+}
+
+function filterTournaments() {
+  const sport = document.getElementById("sportFilter").value;
+  const level = document.getElementById("levelFilter").value;
+  const tbody = document.getElementById("tournamentBody");
+  tbody.innerHTML = "";
+  
+  tournaments
+    .filter(t => (sport === "All" || t.Sport === sport) &&
+                 (level === "All" || t.Level === level))
+    .forEach(t => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${t["Tournament Name"]}</td>
+        <td>${t.Sport}</td>
+        <td>${t.Level}</td>
+        <td>${t["Start Date"]}</td>
+        <td>${t["End Date"]}</td>
+        <td>${t.Summary}</td>
+        <td><a href="${t.URL}" target="_blank">Visit</a></td>
+      `;
+      tbody.appendChild(tr);
+    });
+}
+</script>
+
+</body>
+</html>
