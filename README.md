@@ -24,11 +24,13 @@ This project is a GenAI Intern Assignment solution: a simple, browser-based web 
   - No backend or database server required.
 - **Data Storage:**
   - `tournaments.json` contains all tournament records in a flat array.
+  - Each record now includes a `SportKey` field (a normalized, lowercase, no-space version of the sport name) to ensure robust and future-proof filtering logic in the UI.
   - Acts as a sample DB for the assignment.
 
 ### Output Format (JSON fields)
 - Tournament Name
 - Sport
+- SportKey (for filtering)
 - Level
 - Start Date
 - End Date
@@ -59,6 +61,7 @@ This project is a GenAI Intern Assignment solution: a simple, browser-based web 
 {
   "Tournament Name": "ICC Champions Trophy 2025",
   "Sport": "Cricket",
+  "SportKey": "cricket",
   "Level": "International",
   "Start Date": "2025-02-19",
   "End Date": "2025-03-09",

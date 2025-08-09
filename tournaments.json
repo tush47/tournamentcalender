@@ -1,6 +1,8 @@
 [
     {
       "Tournament Name": "ICC Champions Trophy 2025",
+      "Sport": "Cricket",
+      "SportKey": "cricket",
       "Level": "International",
       "Start Date": "2025-02-19",
       "End Date": "2025-03-09",
@@ -11,6 +13,8 @@
     },
     {
       "Tournament Name": "Indian Premier League 2025",
+      "Sport": "Cricket",
+      "SportKey": "cricket",
       "Level": "National",
       "Start Date": "2025-03-23",
       "End Date": "2025-05-25",
@@ -21,6 +25,8 @@
     },
     {
       "Tournament Name": "FIFA Club World Cup 2025",
+      "Sport": "Football",
+      "SportKey": "football",
       "Level": "International",
       "Start Date": "2025-06-15",
       "End Date": "2025-07-13",
@@ -31,6 +37,8 @@
     },
     {
       "Tournament Name": "Hero Santosh Trophy 2025",
+      "Sport": "Football",
+      "SportKey": "football",
       "Level": "National",
       "Start Date": "2025-02-01",
       "End Date": "2025-03-15",
@@ -41,6 +49,8 @@
     },
     {
       "Tournament Name": "India Open Badminton 2025",
+      "Sport": "Badminton",
+      "SportKey": "badminton",
       "Level": "International",
       "Start Date": "2025-01-14",
       "End Date": "2025-01-19",
@@ -51,6 +61,8 @@
     },
     {
       "Tournament Name": "All India Inter-University Badminton Championships",
+      "Sport": "Badminton",
+      "SportKey": "badminton",
       "Level": "University",
       "Start Date": "2025-11-01",
       "End Date": "2025-11-07",
@@ -61,6 +73,8 @@
     },
     {
       "Tournament Name": "Mumbai Marathon 2025",
+      "Sport": "Running",
+      "SportKey": "running",
       "Level": "City",
       "Start Date": "2025-01-19",
       "End Date": "2025-01-19",
@@ -71,6 +85,8 @@
     },
     {
       "Tournament Name": "Noida Corporate Run 2025",
+      "Sport": "Running",
+      "SportKey": "running",
       "Level": "Corporate",
       "Start Date": "2025-11-05",
       "End Date": "2025-11-05",
@@ -81,6 +97,8 @@
     },
     {
       "Tournament Name": "CrossFit Games 2025",
+      "Sport": "Fitness",
+      "SportKey": "fitness",
       "Level": "International",
       "Start Date": "2025-08-01",
       "End Date": "2025-08-05",
@@ -91,6 +109,8 @@
     },
     {
       "Tournament Name": "Musclemania India 2025",
+      "Sport": "Bodybuilding",
+      "SportKey": "bodybuilding",
       "Level": "National",
       "Start Date": "2025-09-15",
       "End Date": "2025-09-16",
@@ -101,6 +121,8 @@
     },
     {
       "Tournament Name": "Tour de France 2025",
+      "Sport": "Cycling",
+      "SportKey": "cycling",
       "Level": "International",
       "Start Date": "2025-07-05",
       "End Date": "2025-07-27",
@@ -111,6 +133,8 @@
     },
     {
       "Tournament Name": "Delhi Cyclothon 2025",
+      "Sport": "Cycling",
+      "SportKey": "cycling",
       "Level": "City",
       "Start Date": "2025-10-20",
       "End Date": "2025-10-20",
@@ -121,6 +145,8 @@
     },
     {
       "Tournament Name": "World Aquatics Championships 2025",
+      "Sport": "Swimming",
+      "SportKey": "swimming",
       "Level": "International",
       "Start Date": "2025-07-11",
       "End Date": "2025-07-27",
@@ -131,6 +157,8 @@
     },
     {
       "Tournament Name": "Haryana State Swimming Championship 2025",
+      "Sport": "Swimming",
+      "SportKey": "swimming",
       "Level": "State",
       "Start Date": "2025-09-10",
       "End Date": "2025-09-12",
@@ -141,6 +169,8 @@
     },
     {
       "Tournament Name": "Kabaddi World Cup 2025",
+      "Sport": "Kabaddi",
+      "SportKey": "kabaddi",
       "Level": "International",
       "Start Date": "2025-12-05",
       "End Date": "2025-12-12",
@@ -151,6 +181,8 @@
     },
     {
       "Tournament Name": "Noida Inter-District Kabaddi Championship 2025",
+      "Sport": "Kabaddi",
+      "SportKey": "kabaddi",
       "Level": "District",
       "Start Date": "2025-09-25",
       "End Date": "2025-09-27",
@@ -161,6 +193,8 @@
     },
     {
       "Tournament Name": "International Yoga Festival Rishikesh 2025",
+      "Sport": "Yoga",
+      "SportKey": "yoga",
       "Level": "International",
       "Start Date": "2025-03-01",
       "End Date": "2025-03-07",
@@ -171,6 +205,8 @@
     },
     {
       "Tournament Name": "Maharashtra State Yogasana Championship 2025",
+      "Sport": "Yoga",
+      "SportKey": "yoga",
       "Level": "State",
       "Start Date": "2025-10-15",
       "End Date": "2025-10-16",
@@ -181,6 +217,8 @@
     },
     {
       "Tournament Name": "National Basketball Championship 2025",
+      "Sport": "Basketball",
+      "SportKey": "basketball",
       "Level": "National",
       "Start Date": "2025-12-01",
       "End Date": "2025-12-10",
@@ -191,6 +229,8 @@
     },
     {
       "Tournament Name": "Mumbai 3x3 Basketball Challenge 2025",
+      "Sport": "Basketball",
+      "SportKey": "basketball",
       "Level": "City",
       "Start Date": "2025-08-20",
       "End Date": "2025-08-22",
@@ -201,6 +241,8 @@
     },
     {
       "Tournament Name": "FIDE World Rapid & Blitz Chess Championship 2025",
+      "Sport": "Chess",
+      "SportKey": "chess",
       "Level": "International",
       "Start Date": "2025-12-26",
       "End Date": "2025-12-30",
@@ -211,6 +253,8 @@
     },
     {
       "Tournament Name": "Delhi Open International Chess Tournament 2025",
+      "Sport": "Chess",
+      "SportKey": "chess",
       "Level": "International",
       "Start Date": "2025-01-10",
       "End Date": "2025-01-18",
@@ -221,6 +265,8 @@
     },
     {
       "Tournament Name": "WTT Star Contender Goa 2025",
+      "Sport": "Table Tennis",
+      "SportKey": "tabletennis",
       "Level": "International",
       "Start Date": "2025-02-18",
       "End Date": "2025-02-23",
@@ -231,6 +277,8 @@
     },
     {
       "Tournament Name": "Noida District Table Tennis League 2025",
+      "Sport": "Table Tennis",
+      "SportKey": "tabletennis",
       "Level": "District",
       "Start Date": "2025-10-05",
       "End Date": "2025-10-07",

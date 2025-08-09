@@ -47,18 +47,25 @@ fetch('tournaments.json')
   });
 
 function populateFilters() {
-  const sports = ["All", ...new Set(tournaments.map(t => t.Sport))];
-  const levels = ["All", ...new Set(tournaments.map(t => t.Level))];
   const sportSelect = document.getElementById("sportFilter");
   const levelSelect = document.getElementById("levelFilter");
-  
-  sports.forEach(s => {
+  // Clear previous options
+  sportSelect.innerHTML = '<option value="All">All</option>';
+  levelSelect.innerHTML = '<option value="All">All</option>';
+
+  // Use SportKey for values, but display Sport name
+  const sportMap = {};
+  tournaments.forEach(t => {
+    if (t.SportKey && t.Sport) sportMap[t.SportKey] = t.Sport;
+  });
+  Object.entries(sportMap).forEach(([key, name]) => {
     const opt = document.createElement("option");
-    opt.value = s;
-    opt.textContent = s;
+    opt.value = key;
+    opt.textContent = name;
     sportSelect.appendChild(opt);
   });
-  
+
+  const levels = [...new Set(tournaments.map(t => t.Level).filter(Boolean))];
   levels.forEach(l => {
     const opt = document.createElement("option");
     opt.value = l;
@@ -68,13 +75,13 @@ function populateFilters() {
 }
 
 function filterTournaments() {
-  const sport = document.getElementById("sportFilter").value;
+  const sportKey = document.getElementById("sportFilter").value;
   const level = document.getElementById("levelFilter").value;
   const tbody = document.getElementById("tournamentBody");
   tbody.innerHTML = "";
-  
+
   tournaments
-    .filter(t => (sport === "All" || t.Sport === sport) &&
+    .filter(t => (sportKey === "All" || t.SportKey === sportKey) &&
                  (level === "All" || t.Level === level))
     .forEach(t => {
       const tr = document.createElement("tr");
